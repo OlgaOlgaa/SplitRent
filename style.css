@@ -1,0 +1,111 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 1200px;
+	background-color: #DAB88B;
+	flex-wrap: wrap;
+}
+
+#container {
+	background-color: #DAB88B;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+	width: 650px;
+	border-radius: 20px;
+	box-shadow: 0 0 5px 5px #630606;
+}
+
+h1 {
+	color: #630606;
+	align-self: center;
+	font-family: 'Happy Monkey', cursive;
+	font-size: 30px;
+}
+
+form {
+	margin-left: 20px;
+	font-family: 'Happy Monkey', cursive;
+	color: #630606;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	padding: 5px;
+	box-shadow: 0 0 5px 2px #630606;
+	font-family: 'Happy Monkey', cursive;
+	background-color: #FBF8F1;
+}
+
+.facilities {
+	font-weight: bolder;
+}
+
+#addDiscount {
+	background-color: #5EE6EB;
+	box-shadow: 0 0 5px 2px #630606;
+	padding: 10px;
+	margin-top: 10px;
+	align-self: center;
+	font-family: 'Happy Monkey', cursive;
+	width: 70%;
+}
+
+#discount {
+	font-family: 'Happy Monkey', cursive;
+	display: none;
+}
+
+#calculate {
+	background-color: #F76E11;
+	font-family: 'Happy Monkey', cursive;
+	box-shadow: 0 0 5px 2px #630606;
+	padding: 10px;
+	width: 70%;
+	align-self: center;
+}
+
+#showTotalAmountToPay {
+	display: flex;
+	align-self: center;
+}
+
+#totalBill,
+#totalDiscount,
+#totalAmount {
+	font-family: 'Happy Monkey', cursive;
+	background-color: #630606;
+	color: beige;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 0 0 5px 2px #FBF8F1;
+	border-radius: 10px;
+}
+
+#discount {
+	font-family: 'Happy Monkey', cursive;
+	padding: 5px;
+	background-color: #FBF8F1;
+	width: 70%;
+	align-self: center;
+}
+
+@media all and (max-width:800px) {
+	#container {
+		width: 500px;
+		margin-left: 10px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+}
+
+@media all and (max-width:500px) {
+	#container {
+		width: 400px;
+	}
+}
